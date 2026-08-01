@@ -1,22 +1,77 @@
 aid: parasma
 name: Parasma
-description: Parasma is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Parasma is a San Francisco based biological compute startup building
+  algorithms and hardware that train living human brain cells (cortical neurons
+  on a chip) to perform computation for AI workloads. Founded in 2026 by Sean
+  Cole and backed by Y Combinator (Summer 2026 batch), the company grew out of
+  research that taught a clump of lab-grown human neurons to play Doom, coverage
+  of which appeared in Nature, The Economist, Scientific American, The Guardian
+  and elsewhere. Parasma currently operates as an early-stage research company
+  with a marketing and news website; it does not yet publish a public API, SDK,
+  developer portal, or other machine-readable developer surface. This profile is
+  tracked in the API Evangelist network as a company lead so any future
+  developer platform can be captured when it ships.
 url: https://raw.githubusercontent.com/api-evangelist/parasma/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://parasma.com/wordmark_black_on_white.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-stage: pre-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biological Compute
+- Neurotechnology
+- Artificial Intelligence
+- Machine Learning
+- Wetware
+- Compute
+- Research
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/parasma-domain-security.yml
+- type: Website
+  url: https://parasma.com/
+- type: About
+  url: https://parasma.com/about
+- type: Blog
+  url: https://parasma.com/news
+- type: Research
+  url: https://parasma.com/research
+- type: LinkedIn
+  url: https://www.linkedin.com/company/parasma/
+- type: Twitter
+  url: https://x.com/ParasmaAI
+- type: YouTube
+  url: https://www.youtube.com/@ParasmaAI
+- type: X
+  url: https://x.com/ParasmaAI
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
