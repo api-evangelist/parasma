@@ -51,7 +51,7 @@ tags:
 - Biological Compute
 - Neurotechnology
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Wetware
 - Compute
 - Research
@@ -66,6 +66,7 @@ tags_raw:
 - Compute
 - Research
 - Y Combinator
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
